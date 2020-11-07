@@ -2,9 +2,12 @@
   "name": "yotsuba",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/yotsuba.common.js",
+  "module": "dist/yotsuba.umd.js",
+  "unpkg": "dist/yotsuba.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name yotsuba src/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
