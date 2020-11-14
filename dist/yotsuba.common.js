@@ -104,6 +104,24 @@ module.exports = !DESCRIPTORS && !fails(function () {
 
 /***/ }),
 
+/***/ "333f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Button_vue_vue_type_style_index_0_lang_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3889");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Button_vue_vue_type_style_index_0_lang_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Button_vue_vue_type_style_index_0_lang_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "3889":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "825a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -310,13 +328,6 @@ module.exports = function (input, PREFERRED_STRING) {
 
 /***/ }),
 
-/***/ "c30d":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "c8ba":
 /***/ (function(module, exports) {
 
@@ -404,8 +415,8 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "Based", function() { return /* reexport */ components_Based; });
-__webpack_require__.d(__webpack_exports__, "Button", function() { return /* reexport */ Button_default.a; });
+__webpack_require__.d(__webpack_exports__, "YoBased", function() { return /* reexport */ components_Based; });
+__webpack_require__.d(__webpack_exports__, "YoButton", function() { return /* reexport */ components_Button; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -437,16 +448,16 @@ var es_function_name = __webpack_require__("b0c0");
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Based/Based.vue?vue&type=template&id=8de02b50&bindings={}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Based/Based.vue?vue&type=template&id=61a1701e&bindings={}
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createBlock"])("div", null, "based");
 }
-// CONCATENATED MODULE: ./src/components/Based/Based.vue?vue&type=template&id=8de02b50&bindings={}
+// CONCATENATED MODULE: ./src/components/Based/Based.vue?vue&type=template&id=61a1701e&bindings={}
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Based/Based.vue?vue&type=script&lang=js
 /* harmony default export */ var Basedvue_type_script_lang_js = ({
-  name: 'based'
+  name: 'yo-based'
 });
 // CONCATENATED MODULE: ./src/components/Based/Based.vue?vue&type=script&lang=js
  
@@ -466,10 +477,43 @@ Based.install = function (Vue) {
 };
 
 /* harmony default export */ var components_Based = (Based);
-// EXTERNAL MODULE: ./src/components/Button/index.js
-var Button = __webpack_require__("c30d");
-var Button_default = /*#__PURE__*/__webpack_require__.n(Button);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Button/Button.vue?vue&type=template&id=63c79d1a&bindings={}
 
+var _hoisted_1 = {
+  class: "yo-button"
+};
+function Buttonvue_type_template_id_63c79d1a_bindings_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createBlock"])("button", _hoisted_1);
+}
+// CONCATENATED MODULE: ./src/components/Button/Button.vue?vue&type=template&id=63c79d1a&bindings={}
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Button/Button.vue?vue&type=script&lang=js
+/* harmony default export */ var Buttonvue_type_script_lang_js = ({
+  name: 'yo-button'
+});
+// CONCATENATED MODULE: ./src/components/Button/Button.vue?vue&type=script&lang=js
+ 
+// EXTERNAL MODULE: ./src/components/Button/Button.vue?vue&type=style&index=0&lang=scss
+var Buttonvue_type_style_index_0_lang_scss = __webpack_require__("333f");
+
+// CONCATENATED MODULE: ./src/components/Button/Button.vue
+
+
+
+
+
+Buttonvue_type_script_lang_js.render = Buttonvue_type_template_id_63c79d1a_bindings_render
+
+/* harmony default export */ var Button = (Buttonvue_type_script_lang_js);
+// CONCATENATED MODULE: ./src/components/Button/index.js
+
+
+
+Button.install = function (Vue) {
+  Vue.component(Button.name, Button);
+};
+
+/* harmony default export */ var components_Button = (Button);
 // CONCATENATED MODULE: ./src/index.js
 
 

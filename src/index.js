@@ -1,2 +1,2 @@
-export { default as Based } from './components/Based'
-export { default as Button } from './components/Button'
+export { default as YoBased } from './components/Based'
+export { default as YoButton } from './components/Button'
