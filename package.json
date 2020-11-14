@@ -38,6 +38,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
+      "vue-cli-service build --target lib --name yotsuba src/index.js",
       "vue-cli-service lint",
       "git add"
     ]
