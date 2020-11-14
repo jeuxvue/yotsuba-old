@@ -25,7 +25,7 @@ module.exports = {
     'vue/html-self-closing': [ 'error', {
       html: {
         void: 'never',
-        normal: 'always',
+        normal: 'any',
         component: 'any',
       },
       svg: 'always',
@@ -38,10 +38,7 @@ module.exports = {
         allowFirstLine: false,
       },
     } ],
-    'vue/match-component-file-name': [ 'error', {
-      extensions: [ 'vue' ],
-      shouldMatchCase: false,
-    } ],
+    'vue/component-definition-name-casing': [ 'error', 'kebab-case' ],
     'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
